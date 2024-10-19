@@ -19,7 +19,9 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd} align="middle">
+      <section className={utilStyles.headingMd} align="middle"><div align="middle">
+      <Link href="https://x.com/binxbtc" target='_blank'><img src="/xicon.png" width="40px" height="40px"></img></Link>
+      </div>
       <p>Hello I'm Binx, I'm just a dude playing a dude <br />disguised as another dude!</p>
       <img src="/binxbtcordqraddy.png" align="left"></img><img src="/binxbtcbtcqraddy.png" align="left"></img><img src="/binxbtcstxqraddy.png"></img>
         <p><b>Ordinals/Runes/BRC-20:</b><br />bc1pduuf3qd32wj34kcams7ny6fmcps8qjes72n6zx4slshxfctkf8uqzwta3j</p>
