@@ -19,8 +19,10 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd} align="middle">
-        <p>Hello I'm Binx, I'm a dude playing a dude <br />disguised as another dude!</p>
+      <section className={utilStyles.headingMd} align="middle"><div align="middle">
+      <Link href="https://x.com/binxbtc" target='_blank'><img src="/xicon.png" width="40px" height="40px"></img></Link>
+      </div>
+      <p>Hello I'm Binx, I'm just a dude playing a dude <br />disguised as another dude!</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding2px}`}>
         <h2 className={utilStyles.headingLg}>Blogg'in Blog</h2>
