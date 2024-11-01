@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import '../styles/marbs.module.css'; // Ensure this path is correct for your setup
+// Ensure this path is correct for your setup
       //    <audio autoPlay loop>
       //    <source src="/binxmarbsintro.mp3" type="audio/mp3" />
       //    Your browser does not support the audio element.
@@ -10,7 +10,7 @@ export default function VideoPage() {
   return (
     <>
       <Head>
-        <title>Looped Video Page</title>
+        <title>Binxbtc Marbs</title>
       </Head>
       
       <header>

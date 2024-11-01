@@ -17,7 +17,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{siteTitle} - BLOGGIN BLOG</title>
       </Head>
       <section className={utilStyles.headingMd} align="middle"><div align="middle">
       <Link href="https://x.com/binxbtc" target='_blank'><img src="/xicon.png" width="40px" height="40px"></img></Link>
