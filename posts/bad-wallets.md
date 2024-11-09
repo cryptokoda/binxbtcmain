@@ -13,3 +13,9 @@ So ofcourse I apologized and hey what can i do. Learning curve I guess. So for t
 
 BAD WALLETS:
 SP2TA4FGB43WVAS8MVS6YCWTSN2BZNQ1ASGEAKSDD
+SP27ANV45PCAG98PGFA2GVN9K7QYY1KWWS1V6RFSX
+SP134ACD749QYM1J4ZTWMJ43MZH38BJB33D24DQB8 (aka tychu.btc)
+
+Suspicious Activities: (DM if any of this can be explained and I'll be happy to remove)
+twitter profile neo_neo_orange aka backspace_124 (tied to the stxtools.io payment for the tychu coin profile)
+previous tychu related twitter profile had a youtube account pointed to @ODH-iC6ll

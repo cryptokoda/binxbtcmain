@@ -13,6 +13,41 @@ export async function getStaticProps() {
     },
   };
 }
+
+export default function WalletConnectButton() {
+  // Use useEffect to set up the event listener after component mounts
+  React.useEffect(() => {
+    const button = document.getElementById('connect-wallet');
+    
+    if (button) {
+      button.addEventListener('click', () => {
+        showConnect({
+          appDetails: {
+            name: 'Your App Name',
+            icon: window.location.origin + '/your-icon.png',
+          },
+          onFinish: (authResponse) => {
+            console.log('Wallet connected!', authResponse);
+          },
+          userSession: new window['@stacks/auth'].UserSession({
+            appConfig: new window['@stacks/auth'].AppConfig(['store_write', 'publish_data']),
+          }),
+        });
+      });
+    }
+
+    // Clean up the event listener when the component is unmounted
+    return () => {
+      if (button) {
+        button.removeEventListener('click', handleClick);
+      }
+    };
+  }, []);
+
+  return <button id="connect-wallet">Connect Stacks Wallet</button>;
+}
+
+
 export default function Home({ allPostsData }) {
   return (
     <Layout home>

@@ -8,6 +8,7 @@
   "dependencies": {
     "@micro-stacks/client": "^1.2.1",
     "@micro-stacks/react": "^1.0.9",
+    "@stacks/connect": "^7.8.0",
     "date-fns": "^4.1.0",
     "express": "^4.21.1",
     "gray-matter": "^4.0.3",
